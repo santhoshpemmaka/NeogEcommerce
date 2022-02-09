@@ -15,6 +15,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Roboto", sans-serif;
+
 }
 .container-signup {
 	display: flex;
@@ -74,6 +75,9 @@
     width: 2rem;
     height: 3rem;
     border-radius: 2px solid var(--primary-color);
+}
+.terms-checkbox:checked{
+    background-color: var(--primary-color);
 }
 .terms-conditons > label{
     font-size: 1.4rem;
