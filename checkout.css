@@ -7,7 +7,7 @@
 	--dark-primary-color: #e63961;
 	--complimentary-text-color: white;
 	--primary-text-color: #3e4152;
-	--secondary-text-color: #696b79;
+	--secondary-text-color: #282c3f;
 	--border-color: #e6e6e6;
 }
 * {
@@ -24,7 +24,7 @@
 	display: inline-block;
 	font-size: 2rem;
 	font-weight: 700;
-	color: #282c3f;
+	color: var(--secondary-text-color);
 	padding: 3rem 0;
 }
 .checkout-component {
@@ -45,7 +45,7 @@
 	margin: 1rem 0;
 }
 .image-container {
-	width: 157px;
+	width: 15.7rem;
 	height: 148px;
 }
 .image-res {
@@ -86,7 +86,7 @@
 }
 .card-item-actualcost {
 	font-size: 1.6rem;
-	color: #282c3f;
+	color: var(--secondary-text-color);
 	margin-right: 1rem;
 	text-decoration: line-through;
 }
@@ -155,7 +155,7 @@
 }
 
 .card-cost-discount{
-    color: #03a685 !important;
+    color: #03a685;
 }
 .card-cost-total{
     display: flex;
@@ -164,7 +164,7 @@
     font-size: 1.6rem;
     padding-top: 1.6rem;
     border-top: 2px solid #e6e6e6;
-    color:#3e4152;
+    color: var(--primary-text-color);
     font-weight: 600;
 }
 
